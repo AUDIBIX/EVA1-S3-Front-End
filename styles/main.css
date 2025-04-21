@@ -21,7 +21,7 @@ footer{
     background-image: url(/images/hero.jpg);
     width: 100%;
     height: 80vh;
-    object-fit: cover;
+    background-size: contain;
     align-items: center;
 }
 
@@ -39,9 +39,15 @@ footer{
     display: flex;
     flex-direction: column;
     background-color: white;
+    justify-content: space-between;
+    gap: 2vh;
     width: 30vw;
     height: 55vh;
     padding: 5vh;
+}
+
+.input-space{
+    padding-block: 1vh;
 }
 
 .text{
