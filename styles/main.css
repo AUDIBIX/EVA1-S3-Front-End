@@ -1,0 +1,62 @@
+nav{
+    display: flex;
+    height: 20vh;
+    background-color: black;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+}
+
+.hero{
+    display: flex;
+    background-image: url(/images/hero.jpg);
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    align-items: center;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 30vw;
+    height: 55vh;
+    padding: 5vh;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    padding: 4vh;
+    gap: 4vh;
+}
+
+.enter-button{
+    background-color: cyan;
+    color: white;
+    padding-inline: 3vw;
+    padding-block: 2vh;
+    border: 0;
+}
