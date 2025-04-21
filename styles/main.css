@@ -9,6 +9,13 @@ body{
     margin: 0;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero{
     display: flex;
     background-image: url(/images/hero.jpg);
@@ -59,4 +66,22 @@ body{
     padding-inline: 3vw;
     padding-block: 2vh;
     border: 0;
+}
+
+.footer-up{
+    display: flex;
+    background-color: aquamarine;
+    height: 15vh;
+    width: 100%;
+    margin: 3vh;
+    align-items: center;
+}
+
+.footer.down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15vh;
+    max-width: 70%;
 }
